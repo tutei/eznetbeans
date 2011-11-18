@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="tpl+xhtml">
+                <folder name="Actions">
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr name="position" intvalue="600"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr name="position" intvalue="1100"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr name="position" intvalue="1400"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr name="position" intvalue="700"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr name="position" intvalue="900"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr name="position" intvalue="1300"/>
+                    </file>
+                    <file name="sep-1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="sep-2.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                    <file name="sep-3.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="800"/>
+                    </file>
+                    <file name="sep-4.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1000"/>
+                    </file>
+                    <file name="sep-5.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1200"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="TplDataLoader.instance">
+                        <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/no/ez/eztpl/ez_publish.png"/>
+                        <attr name="dataObjectClass" stringvalue="no.ez.eztpl.TplDataObject"/>
+                        <attr name="instanceCreate" methodvalue="org.openide.loaders.DataLoaderPool.factory"/>
+                        <attr name="mimeType" stringvalue="text/tpl+xhtml"/>
+                    </file>
+                </folder>
+            </folder>
+            <folder name="ts+xml">
+                <folder name="Actions">
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr name="position" intvalue="600"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr name="position" intvalue="1100"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr name="position" intvalue="1400"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr name="position" intvalue="700"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr name="position" intvalue="900"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr name="position" intvalue="1300"/>
+                    </file>
+                    <file name="sep-1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="sep-2.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                    <file name="sep-3.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="800"/>
+                    </file>
+                    <file name="sep-4.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1000"/>
+                    </file>
+                    <file name="sep-5.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1200"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="eZTSDataLoader.instance">
+                        <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/no/ez/eztpl/ez_ts.png"/>
+                        <attr name="dataObjectClass" stringvalue="no.ez.eztpl.eZTSDataObject"/>
+                        <attr name="instanceCreate" methodvalue="org.openide.loaders.DataLoaderPool.factory"/>
+                        <attr name="mimeType" stringvalue="text/ts+xml"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="TplResolver.xml" url="TplResolver.xml">
+                <attr name="displayName" bundlevalue="no.ez.eztpl.Bundle#Services/MIMEResolver/TplResolver.xml"/>
+            </file>
+            <file name="eZTSResolver.xml" url="eZTSResolver.xml">
+                <attr name="displayName" bundlevalue="no.ez.eztpl.Bundle#Services/MIMEResolver/eZTSResolver.xml"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="TplTemplate.tpl" url="TplTemplate.tpl">
+                <attr name="displayName" bundlevalue="no.ez.eztpl.Bundle#Templates/Other/TplTemplate.tpl"/>
+                <attr name="template" boolvalue="true"/>
+            </file>
+            <file name="eZTSTemplate.ts" url="eZTSTemplate.ts">
+                <attr name="displayName" bundlevalue="no.ez.eztpl.Bundle#Templates/Other/eZTSTemplate.ts"/>
+                <attr name="template" boolvalue="true"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="tpl+xhtml">
+                <folder name="CompletionProviders">
+                    <file name="no-ez-eztpl-eZTPLCompletionProvider.instance"/>
+                </folder>
+                <file name="PaletteFactory.instance">
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.palette.PaletteController"/>
+                    <attr name="instanceCreate" methodvalue="no.ez.eztpl.ezSourceFileLayerPaletteFactory.createPalette"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="eZPalette">
+        <folder name="Arrays">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="arrays_append.xml" url="items/resources/arrays_append.xml" />
+            <file name="arrays_array.xml" url="items/resources/arrays_array.xml" />
+            <file name="arrays_begins_with.xml" url="items/resources/arrays_begins_with.xml" />
+            <file name="arrays_contains.xml" url="items/resources/arrays_contains.xml" />
+            <file name="arrays_compare.xml" url="items/resources/arrays_compare.xml" />
+            <file name="arrays_contains.xml" url="items/resources/arrays_contains.xml" />
+            <file name="arrays_ends_with.xml" url="items/resources/arrays_ends_with.xml" />
+            <file name="arrays_explode.xml" url="items/resources/arrays_explode.xml" />
+            <file name="arrays_extract.xml" url="items/resources/arrays_extract.xml" />
+            <file name="arrays_extract_left.xml" url="items/resources/arrays_extract_left.xml" />
+            <file name="arrays_extract_right.xml" url="items/resources/arrays_extract_right.xml" />
+            <file name="arrays_hash.xml" url="items/resources/arrays_hash.xml" />
+            <file name="arrays_implode.xml" url="items/resources/arrays_implode.xml" />
+            <file name="arrays_insert.xml" url="items/resources/arrays_insert.xml" />
+            <file name="arrays_merge.xml" url="items/resources/arrays_merge.xml" />
+            <file name="arrays_prepend.xml" url="items/resources/arrays_prepend.xml" />
+            <file name="arrays_remove.xml" url="items/resources/arrays_remove.xml" />
+            <file name="arrays_repeat.xml" url="items/resources/arrays_repeat.xml" />
+            <file name="arrays_replace.xml" url="items/resources/arrays_replace.xml" />
+            <file name="arrays_reverse.xml" url="items/resources/arrays_reverse.xml" />
+            <file name="arrays_sum.xml" url="items/resources/arrays_sum.xml" />
+            <file name="arrays_sum.xml" url="items/resources/arrays_unique.xml" />
+        </folder>
+        <folder name="Data">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="data_currentdate.xml" url="items/resources/data_currentdate.xml" />
+            <file name="data_ezhttp.xml" url="items/resources/data_ezhttp.xml" />
+            <file name="data_ezhttp_hasvariable.xml" url="items/resources/data_ezhttp_hasvariable.xml" />
+            <file name="data_ezini.xml" url="items/resources/data_ezini.xml" />
+            <file name="data_ezini_hasvariable.xml" url="items/resources/data_ezini_hasvariable.xml" />
+            <file name="data_ezmodule.xml" url="items/resources/data_ezmodule.xml" />
+            <file name="data_ezpreference.xml" url="items/resources/data_ezpreference.xml" />
+            <file name="data_ezsys.xml" url="items/resources/data_ezsys.xml" />
+            <file name="data_fetch.xml" url="items/resources/data_fetch.xml" />
+            <file name="data_module_params.xml" url="items/resources/data_module_params.xml" />
+        </folder>
+        <folder name="Images">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="images_image.xml" url="items/resources/images_image.xml" />
+            <file name="images_imagefile.xml" url="items/resources/images_imagefile.xml" />
+            <file name="images_texttoimage.xml" url="items/resources/images_texttoimage.xml" />
+        </folder>
+        <folder name="Miscellaneous">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="misc_action_icon.xml" url="items/resources/misc_action_icon.xml" />
+            <file name="misc_attribute.xml" url="items/resources/misc_attribute.xml" />
+            <file name="misc_classgroup_icon.xml" url="items/resources/misc_classgroup_icon.xml" />
+            <file name="misc_class_icon.xml" url="items/resources/misc_class_icon.xml" />
+            <file name="misc_content_structure_tree.xml" url="items/resources/misc_content_structure_tree.xml" />
+            <file name="misc_ezpackage.xml" url="items/resources/misc_ezpackage.xml" />
+            <file name="misc_flag_icon.xml" url="items/resources/misc_flag_icon.xml" />
+            <file name="misc_gettime.xml" url="items/resources/misc_gettime.xml" />
+            <file name="misc_icon_info.xml" url="items/resources/misc_icon_info.xml" />
+            <file name="misc_makedate.xml" url="items/resources/misc_makedate.xml" />
+            <file name="misc_maketime.xml" url="items/resources/misc_maketime.xml" />
+            <file name="misc_mimetype_icon.xml" url="items/resources/misc_mimetype_icon.xml" />
+            <file name="misc_month_overview.xml" url="items/resources/misc_month_overview.xml" />
+            <file name="misc_roman.xml" url="items/resources/misc_roman.xml" />
+            <file name="misc_topmenu.xml" url="items/resources/misc_topmenu.xml" />
+            <file name="misc_treemenu.xml" url="items/resources/misc_treemenu.xml" />
+        </folder>
+        <folder name="Strings">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="strings_append.xml" url="items/resources/strings_append.xml" />
+            <file name="strings_autolink.xml" url="items/resources/strings_autolink.xml" />
+            <file name="strings_begins_with.xml" url="items/resources/strings_begins_with.xml" />
+            <file name="strings_break.xml" url="items/resources/strings_break.xml" />
+            <file name="strings_chr.xml" url="items/resources/strings_chr.xml" />
+            <file name="strings_compare.xml" url="items/resources/strings_compare.xml" />
+            <file name="strings_concat.xml" url="items/resources/strings_concat.xml" />
+            <file name="strings_contains.xml" url="items/resources/strings_contains.xml" />
+            <file name="strings_count_chars.xml" url="items/resources/strings_count_chars.xml" />
+            <file name="strings_count_words.xml" url="items/resources/strings_count_words.xml" />
+            <file name="strings_crc32.xml" url="items/resources/strings_crc32.xml" />
+            <file name="strings_downcase.xml" url="items/resources/strings_downcase.xml" />
+            <file name="strings_ends_with.xml" url="items/resources/strings_ends_with.xml" />
+            <file name="strings_explode.xml" url="items/resources/strings_explode.xml" />
+            <file name="strings_extract.xml" url="items/resources/strings_extract.xml" />
+            <file name="strings_extract_left.xml" url="items/resources/strings_extract_left.xml" />
+            <file name="strings_extract_right.xml" url="items/resources/strings_extract_right.xml" />
+            <file name="strings_indent.xml" url="items/resources/strings_indent.xml" />
+            <file name="strings_insert.xml" url="items/resources/strings_insert.xml" />
+            <file name="strings_md5.xml" url="items/resources/strings_md5.xml" />
+            <file name="strings_nl2br.xml" url="items/resources/strings_nl2br.xml" />
+            <file name="strings_ord.xml" url="items/resources/strings_ord.xml" />
+            <file name="strings_pad.xml" url="items/resources/strings_pad.xml" />
+            <file name="strings_prepend.xml" url="items/resources/strings_prepend.xml" />
+            <file name="strings_remove.xml" url="items/resources/strings_remove.xml" />
+            <file name="strings_repeat.xml" url="items/resources/strings_repeat.xml" />
+            <file name="strings_replace.xml" url="items/resources/strings_replace.xml" />
+            <file name="strings_reverse.xml" url="items/resources/strings_reverse.xml" />
+            <file name="strings_rot13.xml" url="items/resources/strings_rot13.xml" />
+            <file name="strings_shorten.xml" url="items/resources/strings_shorten.xml" />
+            <file name="strings_simpletags.xml" url="items/resources/strings_simpletags.xml" />
+            <file name="strings_simplify.xml" url="items/resources/strings_simplify.xml" />
+            <file name="strings_trim.xml" url="items/resources/strings_trim.xml" />
+            <file name="strings_upcase.xml" url="items/resources/strings_upcase.xml" />
+            <file name="strings_upfirst.xml" url="items/resources/strings_upfirst.xml" />
+            <file name="strings_upword.xml" url="items/resources/strings_upword.xml" />
+            <file name="strings_wash.xml" url="items/resources/strings_wash.xml" />
+            <file name="strings_wordtoimage.xml" url="items/resources/strings_wordtoimage.xml" />
+            <file name="strings_wrap.xml" url="items/resources/strings_wrap.xml" />
+        </folder>
+        <folder name="Formatting">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="formatting_datetime.xml" url="items/resources/formatting_datetime.xml" />
+            <file name="formatting_i18n.xml" url="items/resources/formatting_i18n.xml" />
+            <file name="formatting_l10n.xml" url="items/resources/formatting_l10n.xml" />
+            <file name="formatting_si.xml" url="items/resources/formatting_si.xml" />
+        </folder>
+        <folder name="Logical">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="logical_and.xml" url="items/resources/logical_and.xml" />
+            <file name="logical_choose.xml" url="items/resources/logical_choose.xml" />
+            <file name="logical_cond.xml" url="items/resources/logical_cond.xml" />
+            <file name="logical_eq.xml" url="items/resources/logical_eq.xml" />
+            <file name="logical_false.xml" url="items/resources/logical_false.xml" />
+            <file name="logical_first_set.xml" url="items/resources/logical_first_set.xml" />
+            <file name="logical_ge.xml" url="items/resources/logical_ge.xml" />
+            <file name="logical_gt.xml" url="items/resources/logical_gt.xml" />
+            <file name="logical_le.xml" url="items/resources/logical_le.xml" />
+            <file name="logical_lt.xml" url="items/resources/logical_lt.xml" />
+            <file name="logical_ne.xml" url="items/resources/logical_ne.xml" />
+            <file name="logical_not.xml" url="items/resources/logical_not.xml" />
+            <file name="logical_null.xml" url="items/resources/logical_null.xml" />
+            <file name="logical_or.xml" url="items/resources/logical_or.xml" />
+            <file name="logical_true.xml" url="items/resources/logical_true.xml" />
+        </folder>
+        <folder name="Mathematics">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="mathematics_abs.xml" url="items/resources/mathematics_abs.xml" />
+            <file name="mathematics_ceil.xml" url="items/resources/mathematics_ceil.xml" />
+            <file name="mathematics_dec.xml" url="items/resources/mathematics_dec.xml" />
+            <file name="mathematics_div.xml" url="items/resources/mathematics_div.xml" />
+            <file name="mathematics_floor.xml" url="items/resources/mathematics_floor.xml" />
+            <file name="mathematics_inc.xml" url="items/resources/mathematics_inc.xml" />
+            <file name="mathematics_max.xml" url="items/resources/mathematics_max.xml" />
+            <file name="mathematics_min.xml" url="items/resources/mathematics_min.xml" />
+            <file name="mathematics_mod.xml" url="items/resources/mathematics_mod.xml" />
+            <file name="mathematics_mul.xml" url="items/resources/mathematics_mul.xml" />
+            <file name="mathematics_rand.xml" url="items/resources/mathematics_rand.xml" />
+            <file name="mathematics_round.xml" url="items/resources/mathematics_round.xml" />
+            <file name="mathematics_sub.xml" url="items/resources/mathematics_sub.xml" />
+            <file name="mathematics_sum.xml" url="items/resources/mathematics_sum.xml" />
+        </folder>
+        <folder name="URL">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="url_exturl.xml" url="items/resources/url_exturl.xml" />
+            <file name="url_ezdesign.xml" url="items/resources/url_ezdesign.xml" />
+            <file name="url_ezimage.xml" url="items/resources/url_ezimage.xml" />
+            <file name="url_ezroot.xml" url="items/resources/url_ezroot.xml" />
+            <file name="url_ezurl.xml" url="items/resources/url_ezurl.xml" />
+        </folder>
+        <folder name="Type">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="type_count.xml" url="items/resources/type_count.xml" />
+            <file name="type_float.xml" url="items/resources/type_float.xml" />
+            <file name="type_get_class.xml" url="items/resources/type_get_class.xml" />
+            <file name="type_get_type.xml" url="items/resources/type_get_type.xml" />
+            <file name="type_int.xml" url="items/resources/type_int.xml" />
+            <file name="type_is_array.xml" url="items/resources/type_is_array.xml" />
+            <file name="type_is_boolean.xml" url="items/resources/type_is_boolean.xml" />
+            <file name="type_is_class.xml" url="items/resources/type_is_class.xml" />
+            <file name="type_is_float.xml" url="items/resources/type_is_float.xml" />
+            <file name="type_is_integer.xml" url="items/resources/type_is_integer.xml" />
+            <file name="type_is_null.xml" url="items/resources/type_is_null.xml" />
+            <file name="type_is_numeric.xml" url="items/resources/type_is_numeric.xml" />
+            <file name="type_is_object.xml" url="items/resources/type_is_object.xml" />
+            <file name="type_is_set.xml" url="items/resources/type_is_set.xml" />
+            <file name="type_is_string.xml" url="items/resources/type_is_string.xml" />
+            <file name="type_is_unset.xml" url="items/resources/type_is_unset.xml" />
+        </folder>
+        <folder name="eZJSCore">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="no.ez.eztpl.Bundle"/>
+            <file name="ezjscore_ezscript.xml" url="items/resources/ezjscore_ezscript.xml" />
+            <file name="ezjscore_ezscript_require.xml" url="items/resources/ezjscore_ezscript_require.xml" />
+            <file name="ezjscore_ezscript_load.xml" url="items/resources/ezjscore_ezscript_load.xml" />
+            <file name="ezjscore_ezscriptfiles.xml" url="items/resources/ezjscore_ezscriptfiles.xml" />
+            <file name="ezjscore_ezcss.xml" url="items/resources/ezjscore_ezcss.xml" />
+            <file name="ezjscore_ezcss_require.xml" url="items/resources/ezjscore_ezcss_require.xml" />
+            <file name="ezjscore_ezcss_load.xml" url="items/resources/ezjscore_ezcss_load.xml" />
+            <file name="ezjscore_ezcssfiles.xml" url="items/resources/ezjscore_ezcssfiles.xml" />
+            <file name="ezjscore_json_encode.xml" url="items/resources/ezjscore_json_encode.xml" />
+            <file name="ezjscore_xml_encode.xml" url="items/resources/ezjscore_xml_encode.xml" />
+            <file name="ezjscore_node_encode.xml" url="items/resources/ezjscore_node_encode.xml" />
+            <file name="ezjscore_has_access_to_limitation.xml" url="items/resources/ezjscore_has_access_to_limitation.xml" />
+        </folder>
+    </folder>
+    <folder name="eZTags">
+        <folder name="append"/>
+        <folder name="array"/>
+        <folder name="begins_with"/>
+        <folder name="compare"/>
+        <folder name="contains"/>
+        <folder name="ends_with"/>
+        <folder name="explode"/>
+        <folder name="extract"/>
+        <folder name="extract_left"/>
+        <folder name="extract_right"/>
+        <folder name="hash"/>
+        <folder name="implode"/>
+        <folder name="insert"/>
+        <folder name="merge"/>
+        <folder name="prepend"/>
+        <folder name="remove"/>
+        <folder name="repeat"/>
+        <folder name="replace"/>
+        <folder name="reverse"/>
+        <folder name="array_sum"/>
+        <folder name="unique"/>
+        <folder name="image"/>
+        <folder name="imagefile"/>
+        <folder name="texttoimage"/>
+        <folder name="action_icon"/>
+        <folder name="attribute"/>
+        <folder name="classgroup_icon"/>
+        <folder name="class_icon"/>
+        <folder name="content_structure_tree"/>
+        <folder name="ezpackage"/>
+        <folder name="flag_icon"/>
+        <folder name="gettime"/>
+        <folder name="icon_info"/>
+        <folder name="makedate"/>
+        <folder name="maketime"/>
+        <folder name="mimetype_icon"/>
+        <folder name="month_overview"/>
+        <folder name="roman"/>
+        <folder name="topmenu"/>
+        <folder name="treemenu"/>
+        <folder name="append"/>
+        <folder name="autolink"/>
+        <folder name="begins_with"/>
+        <folder name="break"/>
+        <folder name="chr"/>
+        <folder name="compare"/>
+        <folder name="concat"/>
+        <folder name="contains"/>
+        <folder name="count_chars"/>
+        <folder name="count_words"/>
+        <folder name="crc32"/>
+        <folder name="downcase"/>
+        <folder name="ends_with"/>
+        <folder name="explode"/>
+        <folder name="extract"/>
+        <folder name="extract left"/>
+        <folder name="extract_right"/>
+        <folder name="indent"/>
+        <folder name="insert"/>
+        <folder name="md5"/>
+        <folder name="nl2br"/>
+        <folder name="ord"/>
+        <folder name="pad"/>
+        <folder name="prepend"/>
+        <folder name="remove"/>
+        <folder name="repeat"/>
+        <folder name="replace"/>
+        <folder name="reverse"/>
+        <folder name="rot13"/>
+        <folder name="shorten"/>
+        <folder name="simpletags"/>
+        <folder name="simplify"/>
+        <folder name="trim"/>
+        <folder name="upcase"/>
+        <folder name="upfirst"/>
+        <folder name="upword"/>
+        <folder name="wash"/>
+        <folder name="wordtoimage"/>
+        <folder name="wrap"/>
+        <folder name="currentdate"/>
+        <folder name="ezhttp"/>
+        <folder name="ezhttp_hasvariable"/>
+        <folder name="ezini"/>
+        <folder name="ezini_hasvariable"/>
+        <folder name="ezmodule"/>
+        <folder name="ezpreference"/>
+        <folder name="ezsys"/>
+        <folder name="fetch"/>
+        <folder name="module_params"/>
+        <folder name="datetime"/>
+        <folder name="i18n"/>
+        <folder name="l10n"/>
+        <folder name="si"/>
+        <folder name="and"/>
+        <folder name="choose"/>
+        <folder name="cond"/>
+        <folder name="eq"/>
+        <folder name="false"/>
+        <folder name="first_set"/>
+        <folder name="ge"/>
+        <folder name="gt"/>
+        <folder name="le"/>
+        <folder name="lt"/>
+        <folder name="ne"/>
+        <folder name="not"/>
+        <folder name="null"/>
+        <folder name="or"/>
+        <folder name="true"/>
+        <folder name="abs"/>
+        <folder name="ceil"/>
+        <folder name="dec"/>
+        <folder name="div"/>
+        <folder name="floor"/>
+        <folder name="inc"/>
+        <folder name="max"/>
+        <folder name="min"/>
+        <folder name="mod"/>
+        <folder name="mul"/>
+        <folder name="rand"/>
+        <folder name="round"/>
+        <folder name="sub"/>
+        <folder name="sum"/>
+        <folder name="exturl"/>
+        <folder name="ezdesign"/>
+        <folder name="ezimage"/>
+        <folder name="ezroot"/>
+        <folder name="ezurl"/>
+        <folder name="count"/>
+        <folder name="float"/>
+        <folder name="get_class"/>
+        <folder name="get_type"/>
+        <folder name="int"/>
+        <folder name="is_array"/>
+        <folder name="is_boolean"/>
+        <folder name="is_class"/>
+        <folder name="is_float"/>
+        <folder name="is_integer"/>
+        <folder name="is_null"/>
+        <folder name="is_numeric"/>
+        <folder name="is_object"/>
+        <folder name="is_set"/>
+        <folder name="is_string"/>
+        <folder name="is_unset"/>
+        <folder name="has_access_to_limitation"/>
+        <folder name="ezscript"/>
+        <folder name="ezscript_require"/>
+        <folder name="ezscript_load"/>
+        <folder name="ezscriptfiles"/>
+        <folder name="ezcss"/>
+        <folder name="ezcss_require"/>
+        <folder name="ezcss_load"/>
+        <folder name="ezcssfiles"/>
+        <folder name="json_encode"/>
+        <folder name="xml_encode"/>
+        <folder name="node_encode"/>
+    </folder>
+</filesystem>
